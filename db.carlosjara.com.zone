@@ -1,0 +1,15 @@
+@ORIGIN carlosjara.com.
+$TTL 86400	; 0 seconds
+			IN SOA carlosjara.com. root.carlosjara.com. (
+				2	; serial
+				0	; refresh (0 seconds)
+				0	; retry (0 seconds)
+				0	; expire (0 seconds)
+				0	; minumun (0 seconds)
+)
+@	IN	A	192.168.100.50
+www	IN	A	192.168.100.50
+NS	IN 	A	192.168.100.50
+@	IN	A	carlosjara.com.
+smtp	IN	A	192.168.100.50
+ftp	IN	A	192.168.100.50
